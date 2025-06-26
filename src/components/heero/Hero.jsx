@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import About from '../about/About';
-import Gallery from '../gallery/Gallery';
+import Gallery from '../Gallery/Gallery';
 import Package from '../Packages/Packages';
 import Testimonials from'../Testimonials/Testimonials';
 import Contact from '../contact/Contact';

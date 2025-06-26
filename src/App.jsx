@@ -6,7 +6,7 @@ import Hero from './components/heero/Hero';
 import About from './components/about/About';
 import Packages from './components/Packages/Packages';
 import Testimonials from './components/Testimonials/Testimonials';
-import Gallery from './components/gallery/Gallery';
+import Gallery from './components/Gallery/Gallery';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Booking from './components/booking/Booking';
