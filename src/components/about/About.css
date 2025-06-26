@@ -18,3 +18,8 @@
     color: #e67e22;
     margin-bottom: 20px;
   }
+  #about .section-title {
+    color: #222;
+    font-weight: bold;
+    margin-top: 60px;
+  }

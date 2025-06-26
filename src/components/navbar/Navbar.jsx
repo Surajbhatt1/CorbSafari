@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
-        <a className="navbar-brand" href="#home">Corbett Safari</a>
+        <a className="navbar-brand" href="/home">Corbett Safari</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -31,22 +31,22 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#home">Home</a>
+              <a className="nav-link" href="/home">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <a className="nav-link" href="/about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#packages">Packages</a>
+              <a className="nav-link" href="/packages">Packages</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#gallery">Gallery</a>
+              <a className="nav-link" href="/gallery">Gallery</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#testimonials">Testimonials</a>
+              <a className="nav-link" href="/testimonials">Testimonials</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
+              <a className="nav-link" href="/contact">Contact</a>
             </li>
           </ul>
         </div>
