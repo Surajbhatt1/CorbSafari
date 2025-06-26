@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/heero/Hero';
@@ -17,6 +17,8 @@ function App() {
     <>
       <Navbar />
       <Routes>
+      <Route path="/" element={<Navigate to="/home" />} />
+
         <Route path="/home" element={<Hero />} />
         <Route path="/about" element={<About />} />
         <Route path="/packages" element={<Packages />} />
